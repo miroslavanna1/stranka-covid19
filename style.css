@@ -1,0 +1,147 @@
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+
+
+.wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 200px);
+    grid-template-rows: repeat(7, 200px);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+    
+.logo-blok { 
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(logo.png);  
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.nazov-blok { 
+    grid-area: 1 / 2 / 2 / 5;
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+ }
+
+.nav { 
+    grid-area: 1 / 5 / 2 / 8;  
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+}
+
+.text1-blok { 
+    grid-area: 2 / 1 / 4 / 4;
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+ }
+
+.text2-blok { 
+    grid-area: 2 / 5 / 4 / 8;
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+ }
+
+.text3-blok {
+    grid-area: 4 / 3 / 7 / 6;  
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+}
+
+.text4-blok {
+    grid-area: 4 / 1 / 6 / 3;  
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+ }
+
+.text5-blok { 
+    grid-area: 5 / 6 / 8 / 8;
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+ }
+
+.mapa { grid-area: 6 / 1 / 8 / 3;
+    background-image: url(heatmap.jpg);  
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.obr1 { grid-area: 7 / 3 / 8 / 4; 
+    background-image: url(obr1.jpg);  
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.obr2 { grid-area: 7 / 4 / 8 / 5;
+    background-image: url(obr2.jpg);  
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.obr3 { grid-area: 7 / 5 / 8 / 6;
+    background-image: url(obr3.jpg);  
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.corona-fotka { grid-area: 2 / 4 / 3 / 5;
+    background-image: url(korona4.jpg);  
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.obr6 { grid-area: 3 / 4 / 4 / 5;
+    background-image: url(korona.png);  
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.ludiafoto { grid-area: 4 / 6 / 5 / 7;
+    background-image: url(ludia.jpg);  
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ }
+.obr5 { grid-area: 4 / 7 / 5 / 8;
+    background-image: url(obr5.jpg);  
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.nazov{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4%;
+}
+.text{
+    font-size: 23px;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h2{
+    margin-left: 5%;
+}
+
+li {
+    text-align: center;
+
+}
+a{
+    font-size: 35px;
+}
